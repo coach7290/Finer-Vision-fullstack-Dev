@@ -1,0 +1,63 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add axios
+
+PATH: 
+  C:\Users\leont\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\leont\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA NGX;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin;C:\Program Files\dotnet;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Users\leont\.windows-build-tools\python27;C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\leont\AppData\Roaming\npm\node_modules\windows-build-tools\node_modules\.bin;C:\Users\leont\AppData\Roaming\npm\node_modules\.bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA NGX;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\nodejs;C:\Users\leont\AppData\Local\Microsoft\WindowsApps;C:\Users\leont\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\leont\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Users\leont\AppData\Roaming\npm;C:\Users\leont\AppData\Local\Yarn\bin;C:\Users\leont\.dotnet\tools;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;C:\Users\leont\AppData\Roaming\Composer\vendor\bin;C:\Exercism;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  10.15.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\xampp\htdocs\dev-test\node_modules\node-sass\vendor\win32-x64-64\binding.node'
+
+npm manifest: 
+  {
+      "private": true,
+      "scripts": {
+          "watch": "npx webpack-dev-server --hot --mode development",
+          "build": "npx webpack -p --mode production"
+      },
+      "dependencies": {
+          "core-js": "^3.1.4",
+          "react": "^16.8.6",
+          "react-dom": "^16.8.6",
+          "react-router-dom": "^5.0.1",
+          "regenerator-runtime": "^0.13.2"
+      },
+      "devDependencies": {
+          "@babel/core": "^7.7.0",
+          "@babel/plugin-proposal-class-properties": "^7.7.0",
+          "@babel/preset-env": "^7.7.1",
+          "@babel/preset-react": "^7.0.0",
+          "babel-loader": "^8.0.6",
+          "clean-webpack-plugin": "^3.0.0",
+          "css-loader": "^3.2.0",
+          "dotenv": "^8.2.0",
+          "file-loader": "^4.2.0",
+          "html-webpack-plugin": "^3.2.0",
+          "node-sass": "^4.13.0",
+          "nodemon": "^1.19.4",
+          "preload-webpack-plugin": "^3.0.0-beta.4",
+          "prop-types": "^15.7.2",
+          "react": "^16.2.0",
+          "react-dom": "^16.2.0",
+          "react-hot-loader": "^4.12.15",
+          "sass-loader": "^8.0.0",
+          "style-loader": "^1.0.0",
+          "webpack": "^4.41.2",
+          "webpack-cli": "^3.3.10",
+          "webpack-dev-server": "^3.9.0"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

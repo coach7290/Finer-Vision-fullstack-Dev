@@ -1,0 +1,99 @@
+ul{
+    max-width: 43%;
+    border-radius: 10px;
+    padding-bottom: 1px;
+}
+    
+    li{
+        margin: 3px;
+        border-radius: 5px;
+    }
+
+
+
+.collapsible-header{
+    background-color: #ffc600;
+    border-radius: 5px;  
+    
+    
+}
+
+.collapsible-body{
+    position: relative;
+    height: 280px;
+    background-color: #dedede;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+   
+    
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 2rem;
+    width: 100%;
+
+}
+
+
+label{
+    display: block;
+    color: black;
+    font-size: 1.5rem;
+}
+
+
+form{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    
+ 
+}
+
+input, select {
+    border-radius: 10px;
+    border-style: none;
+    height: 30px;
+    width: 172px;
+}
+
+.btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    border-radius: 15px;
+    border-style: none;
+    width: 150px;
+    height: 35px;
+    background-color: #3e4ab8;
+    color: #fff;
+}
+
+.dob{
+    display: flex;
+}
+
+.dob input {
+    width: 50px;
+    margin-right: 7px;
+}
+
+textarea{
+    border-style: none;
+    background-color: #fff;
+    resize: none;
+    border-radius: 10px;
+    height: 133px;
+    width: 350px;
+    
+}
+
+.is-danger{
+    color: red;
+}
+
+
+
+
