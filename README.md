@@ -1,10 +1,6 @@
 # Finer Vision Dev Test
 
-This is a full-stack test, focusing mostly on the front-end results. This repository serves are the base template for your test.
-
-Start by following the quick start steps.
-
-Read the full specification [here](https://bit.ly/fv-dev-test).
+Full stack dev test. The Test was about creating a form with different input fields ( the PSD design was provided inside the document). On submit the data should be sent to a MySQL Db. The Front end was made using React (i've been using Hooks for form and Js validation logic). Backend was implemented with the Laravel Framework. Due to the short time available, i've been using the Materialize CSS framework just for the accordion and collapse of each form component.
 
 ### Quick Start
 
